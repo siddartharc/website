@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta charset="utf-8" />
+<title>Game</title>
+<meta name="generator" content="Geany 1.37.1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<style>
+	body  {
+  background-color: ;
+  animation-name: bod;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes bod {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+	section {
+		height : 100vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-color: #82ccdd;
+	}
+	rc h1{
+		background-color: #00ff80;
+		text-transform: capitalize;
+		font-size: 2rem;
+		position: relative;
+		animation-name: example;
+		animation-duration: 30s;
+		animation-timing-function: linear;
+		animation-delay: 2s;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+	}
+	@keyframes example {
+	0%   {background-color:red; left:0px; top:0px;}
+	25%  {background-color:yellow; left:1000px; top:0px;}
+	50%  {background-color:blue; left:500px; top:200px;}
+	75%  {background-color:green; left:0px; top:200px;}
+	100% {background-color:red; left:0px; top:0px;}
+}
+	section h1{
+		text-transform: capitalize;
+		padding-bottom: 30px;
+		font-size: 2rem;
+		text-shadow: 1px 1px 2px white;
+		animation: zooms 1s linear infinite;
+		animation-direction: alternate;
+	}
+	@keyframes zooms{
+		from{ transform: translateX(-20px);}
+		to{ transform: translateX(20px);}
+	}
+	.centerdiv{
+		width:600px;
+		height: 500px;
+		background-color: #78e08f;
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.insertBox{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100px;
+		
+	}
+	#v1,#v2{
+		text-align: center;
+		padding: 20px 30px;
+		width: 35px;
+		font-size: 30px;
+		box-shadow:1px 1px 0px #999,
+		           2px 2px 0px #999,
+		           3px 3px 0px #999,
+		           4px 4px 0px #999,
+		           5px 5px 0px #999,
+		           6px 6px 0px #999;
+		}
+		.box1 p{ font-size:60px;
+			margin: 0 8px 0 13px;
+		}
+		.middleBox #answ{
+			margin: 30px 0 ;
+			padding 5px 0;
+			font-size: 30px;
+			text-align: center;
+			width: 180 px;
+		}
+		.sentBox button{
+			padding: 10px 20px;
+			font-size: 0.8rem;
+			text-transform; uppercase;
+			color: white;
+			border: none;
+			background-color: #079992;
+			border-top-right-radius: 25px;
+			border-top-left-radius: 25px;
+			border-bottom-left-radius: 25px;
+			border-bottom-right-radius: 25px;
+		}
+		.dropdown {
+        position:relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color:hotpink;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display:contents;
+      }
+	  footer{
+        text-align: center;
+        text-decoration: cornsilk;
+        padding: 1px;
+        color:black;
+      }
+	  table, th, td {
+		border-radius: 15px;
+  		border: 1px solid black;
+		float: right;
+}
+.fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
+      
+.fa:hover {
+          opacity: 0.7;
+      }
+      
+.fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+.fa-google {
+        background: #dd4b39;
+        color: white;
+      }
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      .fa-instagram {
+        background: #fc05a9;
+        color: white;
+      }
+	</style>
+	<table>
+		<tr>
+		  <th><div id="txt" style="color:black;font-size: 50px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"></div></th></tr></table>
+	<div class="dropdown">
+		<span style="font-size:50px; color:black;font-family: inherit;">My Website</span>
+		<div class="dropdown-content">
+		<p><a href = "website.html" style="background: darkturquoise;font-size: 20px;color: black;">About</a></p>
+		<p><a href = "bio.html" style="background: darkturquoise;font-size: 20px;color: black;">CV</a></p>
+		<p><a href = "game.html" style="background: darkturquoise;font-size: 20px;color: black;">Game</a></p>
+		<p><a href = "form.html" style="background: darkturquoise;font-size: 20px;color: black;">Form</a></p>
+		</div>
+	  </div>
+</head>
+
+<body onload="startTime()">
+<rc>
+	<h1>QUIZ HERE</h1>
+</rc>
+<section>
+		<h1>MATH SQUARE QUIZ GAME</h1>
+		<div class="centerdiv">
+			<div class="InsertBox">
+				<div class="box1">
+					<input type="text" id = "v1">
+				</div><br>
+				<div class="box1">
+					<p>X</p>
+				</div><br>
+				<div class="box1">
+					<input type="text" id = "v2">
+				</div>
+			</div><br>
+			<div class = "middleBox">
+				<input type="text" id ="answ">
+			</div>
+			<div class="sentBox">
+				<button onclick="jsGame()">Chech Answer</button>
+			</div>
+		</div>
+	</section>
+<script>
+	let n1 = Math.floor(Math.random()*100);
+	document.getElementById("v1").value = n1;
+	document.getElementById("v2").value = n1;
+	let ans = n1*n1;
+	const jsGame = () =>{
+		var usera = document.getElementById("answ").value;
+		if(usera == ans){
+		alert("WELL DONE!")
+	}else{
+		alert("correct answer is"+ ans)	
+		return;
+	}
+	document.getElementById("answ").value ="";
+	n1 = Math.floor(Math.random()*100);
+	document.getElementById("v1").value = n1;
+	document.getElementById("v2").value = n1;
+	ans = n1*n1;
+}
+</script>
+<footer>
+	<p>All rights reserved © 2021 Siddartha</p>
+	<a href="https://www.facebook.com/ramakurthichandrasiddartha" class="fa fa-facebook"></a>
+                <a href="http://siddartharamakurthi@gmail.com/" class="fa fa-google"></a>
+                <a href="https://www.linkedin.com/in/chandra-siddartha-ramakurthi-683b30212/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BgPxXAFTNQPmTRk0yAivI6g%3D%3D" class="fa fa-linkedin"></a>
+                <a href="https://www.instagram.com/siddartha_rc/?hl=en" class="fa fa-instagram"></a>
+</footer>
+<script>
+	function startTime() {
+	  const today = new Date();
+	  let h = today.getHours();
+	  let m = today.getMinutes();
+	  let s = today.getSeconds();
+	  m = checkTime(m);
+	  s = checkTime(s);
+	  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+	  setTimeout(startTime, 1000);
+	}
+	
+	function checkTime(i) {
+	  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+	  return i;
+	}
+	</script>
+</body>
+
+</html>

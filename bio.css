@@ -1,0 +1,140 @@
+
+body{
+		background: url('https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-business-resume-background-material-image_177422.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+    }
+footer{
+        text-align: center;
+        text-decoration: cornsilk;
+        padding: 1px;
+        color:black;
+      }
+div{
+    border-radius: 5px;
+    }
+#header
+{
+    position:static;
+    z-index: 1;
+    height:auto;
+    width:auto;
+    background-color: #668284;
+    margin-bottom: 10px
+    }
+
+#name {
+    float:left;
+	margin-left: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#email{
+    float:right;
+    margin-right: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#contact
+{
+    margin-left:45%;
+    padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+    }
+.right
+{
+    float: left;
+    margin-top: 50px;
+    padding-left:5px;
+    /*margin-right: -10px;
+    margin-left: 14%;*/
+    height: auto;
+    width: 99%;
+    }   
+.bg{
+	background-color: #C1E3E1;
+}
+.p2{
+		font-family:Copperplate, Papyrus, fantasy; 
+		font-color:;
+		font-size: 200%;
+		text-align: center;
+	}
+table,th,td{
+	background-color: #C1E3E1;
+		border: 1px solid black;
+	}
+table{
+	width: 100%;
+}
+td
+{
+    padding: 2px;
+    border: 1px solid black;
+    }
+#heading
+{
+    font-weight:bold;
+    }
+    .dropdown {
+        position:relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color:hotpink;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display:contents;
+      }
+      .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
+      
+.fa:hover {
+          opacity: 0.7;
+      }
+      
+.fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+.fa-google {
+        background: #dd4b39;
+        color: white;
+      }
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      .fa-instagram {
+        background: #fc05a9;
+        color: white;
+      }
+      table, th, td {
+        border-radius: 15px;
+          border: 1px solid black;
+        float:inline-start;
+    }
+      
