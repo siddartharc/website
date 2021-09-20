@@ -88,21 +88,7 @@ footer{
     }
     
     /* The popup chat - hidden by default */
-    .chat-popup {
-      display:none;
-      position:fixed;
-      bottom: 0;
-      right: 15px;
-      border: 3px solid #f1f1f1;
-      z-index: 9;
-    }
-    
-    /* Add styles to the form container */
-    .form-container {
-      max-width: 300px;
-      padding: 10px;
-      background-color: white;
-    }
+   
     
     /* Full-width textarea */
     .form-container textarea {
