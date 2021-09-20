@@ -69,7 +69,7 @@ footer{
       table, th, td {
         border-radius: 15px;
           border: 1px solid black;
-        float:inline-start;
+        float:inline-center;
     }
     .desc {
       padding: 15px;
